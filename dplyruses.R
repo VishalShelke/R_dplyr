@@ -16,7 +16,7 @@ d3.a5<-filter(d2, Plant=="Mn2"|Plant=="Qc2",conc>100,conc<600,uptake<40)
 
 
 
-d3.a<-select(d2, Type,conc )#select columns
-d3.a<-select(d2, contains("up") )
-d3.a<-select(d2, starts_with("T") )
-d3.a<-select(d2, ends_with("e") )
+d3.a6<-select(d2, Type,conc )#select columns
+d3.a7<-select(d2, contains("up") )
+d3.a8<-select(d2, starts_with("T") )
+d3.a9<-select(d2, ends_with("e") )
